@@ -1,0 +1,9 @@
+name = "location-based-quiz-workers"
+type = "javascript"
+main = "src/index.js"
+account_id = "14856cfc7154338d908e3f622a608872"
+workers_dev = true
+compatibility_date = "2024-11-29"
+observability.logs.enabled = true
+[env.production]
+workers_dev = false
